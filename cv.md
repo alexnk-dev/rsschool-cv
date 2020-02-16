@@ -11,6 +11,7 @@ Goal: Frontend Web Developer job
 * Dart / Flutter
 * Git / Ansible / Docker
 * Linux: CentOS / Ubuntu
+
 ## Code Examples
 [My github page:](https://github.com/alexnk-dev)
 ## Experience
