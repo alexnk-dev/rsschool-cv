@@ -13,4 +13,7 @@ Phone: [+7 (926) 754-75-XX](tel:+792675475XX)
 ## Code Examples
 ## Experience
 ## Education
+1998 - 2002 Modern University for the Humanities
 ## Languages
+* English (C1 level)
+* Spanish (A2 level)
