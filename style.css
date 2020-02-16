@@ -1,0 +1,25 @@
+main {
+  max-width: 1024px;
+  height: 100vh;
+  Margin: 0 auto;
+}
+.text {
+  width: 900px;
+  height: 100vh;
+  Margin: 0 auto;
+  float: left;
+}
+
+a {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.summary {
+  font-style: italic;
+}
+
+img {
+  float: right;
+  margin-left: 50px; 
+}
