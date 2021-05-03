@@ -37,7 +37,7 @@ body {
   font-family: "Lora";
   font-weight: bolder;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .h1,
@@ -48,16 +48,20 @@ body {
 }
 
 .h1 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
+  /* font-size: 2.5rem; */
 }
 
 .h2,
 .h3 {
+  font-size: 1.25rem;
   margin-bottom: 1em;
+  letter-spacing: 0.05em;
 }
 
 .header__title {
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
+  font-size: 1rem;
   margin-bottom: 2em;
 }
 
