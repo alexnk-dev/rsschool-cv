@@ -33,6 +33,11 @@
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 body {
   font-family: "Lora";
   font-weight: bolder;
@@ -82,6 +87,19 @@ footer {
   margin-bottom: 2rem;
 }
 
+.header__picture {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.img__box {
+  width: 35%;
+}
+.img {
+  /* opacity: 0.6; */
+}
+
 .header__name {
   position: relative;
 }
@@ -117,7 +135,7 @@ footer {
 
 .contacts__item {
   display: flex;
-  // align-self: center;
+  align-self: center;
 }
 
 .contacts__type--email,
