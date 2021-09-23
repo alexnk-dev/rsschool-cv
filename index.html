@@ -10,6 +10,31 @@
   <body>
     <main>
       <header class="header__picture">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item nav__item--contacts">
+              <a class="nav__link" href="#contacts">Contacts</a>
+            </li>
+            <li class="nav__item nav__item--summary">
+              <a class="nav__link" href="#summary">Summary</a>
+            </li>
+            <li class="nav__item nav__item--skills">
+              <a class="nav__link" href="#skills">Skills</a>
+            </li>
+            <li class="nav__item nav__item--experience">
+              <a class="nav__link" href="#experience">Experience</a>
+            </li>
+            <li class="nav__item nav__item--education">
+              <a class="nav__link" href="#education">Education</a>
+            </li>
+            <li class="nav__item nav__item--languages">
+              <a class="nav__link" href="#languages">Languages</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="burger">
+          <div class="burger__bar"></div>
+        </button>
         <div class="img__box">
           <img class="img" src="./assets/images/cyber_tomorrow.jpg" alt="" />
         </div>
@@ -36,7 +61,7 @@
         </section>
       </header>
 
-      <section class="summary">
+      <section id="summary" class="summary">
         <h2 class="summary__title h2">Summary</h2>
         <ul>
           <li>More than 4 years of practical expertise in IT field</li>
@@ -46,7 +71,7 @@
         </ul>
       </section>
 
-      <section class="skills">
+      <section id="skills" class="skills">
         <h2 class="skills__title h2">Skills</h2>
         <ul class="skills__list">
           <li class="skills__skill">HTML / CSS / SASS / BEM</li>
@@ -58,13 +83,13 @@
         </ul>
       </section>
 
-      <section class="code">
+      <section id="code" class="code">
         <h2 class="code__title h2">Code Examples</h2>
         <a class="code__link" href="https://github.com/alexnk-dev">
           My github page:
         </a>
       </section>
-      <section class="experience">
+      <section id="experience" class="experience">
         <h2 class="experience__title h2">Experience</h2>
         <ul class="experience__list">
           <li class="experience__job">
@@ -81,14 +106,14 @@
         </ul>
       </section>
 
-      <section class="education">
+      <section id="education" class="education">
         <h2 class="education__title h2">Education</h2>
         <p class="education__info">
           1998 - 2002 Modern University for the Humanities, Faculty of Law
         </p>
       </section>
 
-      <section class="languages">
+      <section id="languages" class="languages">
         <h2 class="languages__title h2">Languages</h2>
         <ul class="languages__list">
           <li class="languages__language">English (C1 level)</li>
@@ -99,5 +124,18 @@
         <time datetime="2021-10-03">March 03, 2021</time>
       </footer>
     </main>
+    <script>
+      const navToggle = document.querySelector(".burger");
+      const nav = document.querySelector(".nav");
+      const navList = document.querySelector(".nav__list");
+
+      navToggle.addEventListener("click", () => {
+        document.body.classList.toggle("nav--open");
+        nav.classList.toggle("nav--open");
+      });
+      navList.addEventListener("click", () => {
+        nav.classList.remove("nav--open");
+      });
+    </script>
   </body>
 </html>
