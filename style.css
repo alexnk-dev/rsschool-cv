@@ -240,6 +240,8 @@ footer {
 
 .code__example {
   background: #40454e;
+  color: lightgray;
+  overflow-x: scroll;
 }
 
 .code__purple {
