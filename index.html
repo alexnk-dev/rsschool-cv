@@ -9,7 +9,7 @@
   </head>
   <body>
     <main>
-      <header class="header__picture">
+      <header class="header__nav">
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item nav__item--contacts">
@@ -35,14 +35,19 @@
         <button class="burger">
           <div class="burger__bar"></div>
         </button>
-        <div class="img__box">
-          <img class="img" src="./assets/images/ava_300w.jpg" alt="My avatar" />
-        </div>
       </header>
       <header class="header">
         <h1 class="header__name h1">Alexander Nikolayev</h1>
         <span class="header__title">Frontend Web Developer</span>
-
+        <div class="img__box">
+          <img
+            class="img"
+            width="200px"
+            height="200px"
+            src="./assets/images/ava_300w.jpg"
+            alt="My avatar"
+          />
+        </div>
         <section class="contacts">
           <h2 class="contacts__title h2">Contact Info</h2>
           <ul class="contacts__list">
@@ -120,8 +125,30 @@
           <li class="languages__language">Spanish (A2 level)</li>
         </ul>
       </section>
-      <footer>
-        <time datetime="2021-10-03">March 03, 2021</time>
+      <footer class="footer">
+        <div class="footer__el">
+          <a href="https://rs.school/js/" rel="nofollow">
+            <img
+              width="150px"
+              height="70px"
+              src="./assets/icons/rs_school_js.svg"
+              alt="rsschool logo"
+            />
+          </a>
+        </div>
+        <div class="footer__el">
+          <time datetime="2021-10-03">March 03, 2021</time>
+        </div>
+        <div class="footer__el">
+          <a href="https://github.com/alexnk-dev/" rel="nofollow">
+            <img
+              width="70px"
+              height="70px"
+              src="./assets/icons/github-tile.svg"
+              alt="github logo in tile"
+            />
+          </a>
+        </div>
       </footer>
     </main>
     <script>
