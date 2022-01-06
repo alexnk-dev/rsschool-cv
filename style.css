@@ -238,6 +238,25 @@ footer {
   background: linear-gradient(to left, #355c7d, #6c5b7b, #c06c84);
 }
 
+.code__example {
+  background: #40454e;
+}
+
+.code__purple {
+  color: #be6ab3;
+}
+.code__yellow1 {
+  color: #e2ba6f;
+}
+.code__yellow2 {
+  color: #d0c40b;
+}
+.code__blue {
+  color: #4aa3bb;
+}
+.code__red {
+  color: #cf5a5e;
+}
 .contacts__list {
   list-style-type: none;
 }
