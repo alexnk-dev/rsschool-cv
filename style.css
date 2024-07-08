@@ -238,6 +238,18 @@ footer {
   background: linear-gradient(to left, #355c7d, #6c5b7b, #c06c84);
 }
 
+.projects__list {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.projects__project {
+border: 1px solid black;
+border-radius: 1px;
+list-style-type: none;
+}
+
 .code__example {
   background: #40454e;
   color: lightgray;
