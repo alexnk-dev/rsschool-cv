@@ -248,6 +248,7 @@ footer {
 border: 1px solid black;
 border-radius: 1px;
 list-style-type: none;
+max-width: 640px;
 }
 
 .code__example {
